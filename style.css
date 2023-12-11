@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(230, 230, 247);
+  display: flex;
+}
+body .nav {
+  display: block;
+  max-width: 500px;
+}
+body .nav button {
+  padding: 5px;
+  letter-spacing: 2px;
+  color: rgb(224, 176, 113);
+  border: 0;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  margin: 10px;
+  font-size: 20px;
+}
+body .nav button:hover {
+  color: #141414;
+}
+body main .main {
+  text-align: center;
+}
+body main .main h1 {
+  padding-top: 50px;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+body main .main h1 span {
+  border-bottom: 5px rgb(224, 176, 113) solid;
+}
+body main .main .section {
+  width: 95%;
+  margin: auto;
+}
+body main .main .section .card {
+  display: inline-block;
+  max-width: 350px;
+  height: 300px;
+  margin: 20px;
+  width: 350px;
+}
+body main .main .section .card .img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  border: 3px rgb(224, 176, 113) solid;
+}
+body main .main .section .card .img img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+body main .main .section .card .img h5 {
+  padding: 10px 0;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
